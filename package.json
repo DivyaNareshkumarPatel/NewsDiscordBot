@@ -1,0 +1,22 @@
+{
+  "name": "newsbot",
+  "version": "1.0.0",
+  "description": "This is a new bot of discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [
+    "bot",
+    "news"
+  ],
+  "author": "Divya Patel",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
