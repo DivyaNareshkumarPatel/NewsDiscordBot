@@ -24,6 +24,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('messageCreate', message => {
     if (message.author.bot) return;
+    console.log(message.author)
     message.reply({ content: "Hello!!!" });
     message.reply({ content: "I can provide today's top headlines" });
     message.reply({ content: "You can write '/news' to get news headlines" });

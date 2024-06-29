@@ -4,7 +4,7 @@
   "description": "This is a new bot of discord",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node index.js",
     "test": "jest"
   },
   "keywords": [
